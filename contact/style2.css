@@ -2,31 +2,43 @@
     padding: 0;
     margin: 0;
 } 
+
 .dropdown {
     display: none;
 }
+
 .navbar {
     display: flex ;
     justify-content: space-between;
 }
+
 .navbar ul {
     margin-top: 30px;
     display: inline-flex;
     list-style-type: none;
  }
+
  .navbar ul li {
     justify-content: space-around;
     margin: 10px 60px;
  }
+ 
  .navbar ul li a {
-    font-family: Montserrat;
+    font-family: hanalei fill;
     text-decoration: none;
-    font-style: bold;
     font-weight: 600;
+    color: black;
+    font-size: xx-large;
  }
+
+ .navbar ul li a:hover {
+    color: lightslategray;
+ }
+
  .navbar img {
      margin: 5px 20px;
  }
+
  .homeRed {
     color:#FA4A0C;
  }
@@ -66,46 +78,41 @@
 }
 h1 {
     margin: 20px;
-    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Hanalei Fill';
+    font-size: xxx-large;
 }
 h2 {
     margin: 20px;
 }
 
 #info{
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
+    justify-content: space-evenly;
     margin: 26px;
     margin-left: 60px;
-    grid-row-gap:15px;
     padding-bottom: 60px;
 }
-.boxinfo1 {
-    grid-row: 1/1;
-}
+
 .boxinfo1 p {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 
-    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-top: 10px;    
-}
-.boxinfo2 {
-    grid-row:1/3;
-}
-.boxinfo2 p {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 
-    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-top: 10px;
+    font-family: hanalei fill;
+    margin-top: 40px; 
+    font-size: x-large;   
 }
 
-.boxinfo3{
-    grid-column: 2;
+.boxinfo2 p {
+    font-family: hanalei fill;
+    margin-top: 40px;
+    font-size: x-large;
 }
+
 .boxinfo3 p {
-    margin-top: -10px;
+    margin-top: 40px;
+    font-family: hanalei fill;
+    font-size: x-large;
 }
-.boxinfo4 p {
-    margin-top: -10px;
-}
+
 
 #info .boxinfo4 {
     grid-row:3;
@@ -114,12 +121,14 @@ h2 {
 .boxinput input {
     height: 40px;
     width: 252px;
-    border: 1px solid #BFBFBF;
+    border: 4px inset #BFBFBF;
     border-radius: 5px;
 }
 
 .upload {
     margin-left:60px;
+    display: flex;
+    justify-content: center;
 }
 a.boxup {
     border: 1px solid #FA4A0C;   
@@ -131,16 +140,36 @@ a.boxup {
     font-size: 30px;
     padding-left: 30px;
     cursor: pointer;
+    border-radius: 5px;
+}
+a.boxup:hover {
+    border: 1px solid #FA4A0C;   
+    background-color:#95300c ;
+    text-decoration: none;
+    padding-right:40px;
+    color: white;
+    font-family: roboto;
+    font-size: 30px;
+    padding-left: 30px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 a.boxup1 {
     text-decoration: none;
-    color: black;
-    font-size: large;
+    color: grey;
+    font-size: xx-large;
+}
+a.boxup1:hover {
+    text-decoration: none;
+    color: goldenrod;
+    font-size: xx-large;
 }
 
 div.captcha {
     margin-top: 35px;
     margin-left: 60px;
+    display: flex;
+    justify-content: center;
 }
 
 .boxom {
@@ -154,6 +183,7 @@ div.captcha {
 .boxom p{
     font-size: 22px;
     margin-top: 10px;
+    font-family: hanalei fill;
 }
 
 textarea{
@@ -163,10 +193,12 @@ textarea{
     cursor: text;
     appearance: textfield;
     font-size: 20px;
+    border: 4px inset;
 }
 #ing-select {
-    width:80%;
+    width:20%;
     border-radius: 5px;
+    border: 4px inset;
 }
 
 .boxmes input {
@@ -206,7 +238,7 @@ footer div a {
     margin: 20px auto 20px 20px;
 }
 label {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: hanalei fill;
     font-size: 22px;
 }
 input {

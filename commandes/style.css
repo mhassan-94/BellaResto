@@ -60,24 +60,26 @@
     display:inline-flex;
     width: 100%;
 }
-h1 {
+
+
+.h1top h1{
     margin: 20px;
     font-family: hanalei fill;
 }
-h2 {
+.ptitle p {
     margin: 20px;
     font-family: hanalei fill;
+    font-size: xx-large;
 }
 
 #info{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 25% 25% 25% 25%;
-    margin: 26px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .boxinfo1 p {
     font-family: hanalei fill;   
     margin-top: 10px;
+    font-size: x-large;
 }
 .boxinfo2 {
     grid-row:1/3;
@@ -85,12 +87,14 @@ h2 {
 .boxinfo2 p {
     font-family: hanalei fill;
     margin-top: 10px;
+    font-size: x-large;
 }
 .boxinput input {
     height: 40px;
     width: 280px;
-    border: 1px solid #BFBFBF;
+    border: 5px inset #BFBFBF;
     border-radius: 5px;
+    color:#BFBFBF;
 }
 #cmd {
     display: grid;
@@ -99,6 +103,11 @@ h2 {
     margin:20px;
     width: 100%;
 }
+
+#ing-select {
+    border: 4px inset;
+}
+
 .cmdp4f {
     display: flex;
     width: 89%;
@@ -106,10 +115,10 @@ h2 {
     justify-content: space-between;
 }
 .cmdp4f p{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: hanalei fill;
     color: #FA4A0C;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 36px;
 }
 .boxcmd1{
     display:grid;
@@ -119,9 +128,12 @@ h2 {
     font-family: hanalei fill;
     margin-bottom: 10px;
     margin-top: 10px;
+    font-size: x-large;
 }
 .boxcmd1 input{
     height:50px;
+    border: 4px inset;
+    color: #BFBFBF;
 }
 .boxcmd2{
     display:grid;
@@ -131,9 +143,12 @@ h2 {
     font-family: hanalei fill;
     margin-bottom: 10px;
     margin-top: 10px;
+    font-size: x-large;
 }
 .boxcmd2 input{
     height:50px;
+    border: 4px inset;
+    color: #BFBFBF;
 }
 #boxbd {
     display: grid;
@@ -151,9 +166,13 @@ input.boxinputboissons{
 }
 .boxbd2 div{
     display: grid;
-    grid-template-columns: 3% 20% 30%;
+    grid-template-columns: 7% 24% 30%;
     margin:20px;
     width: 100%;
+}
+
+#bs-select {
+    border: 4px inset;
 }
 .frites{
     list-style-type: none;
@@ -199,4 +218,5 @@ label {
     font-family: hanalei fill;
     margin-bottom: 10px;
     margin-top: 10px;
+    font-size: x-large;
 }

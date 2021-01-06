@@ -24,6 +24,7 @@ ul.alltopbtn li {
 }
 li a {
     text-decoration: none;
+    color: darkorange;
 }
 #illtop {
     DISPLAY: GRID;

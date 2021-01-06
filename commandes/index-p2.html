@@ -49,10 +49,8 @@
                   <p>Chez Bella</p>
                   <p>chaque désire s'additionne.</p>
             </div>
-            <div class="imgtop">
-                  <img src="image/Rectangle 48.png">
-            </div>
-            <h1>VOS INFORMATIONS</h1>
+            <div class="imgtop"><img src="image/Rectangle 48.png"></div>
+            <div class="h1top"><h1>VOS INFORMATIONS</h1></div>
             <section id="info">
                   <div class="boxinfo1">
                       <p>Nom :</p><br>
@@ -62,7 +60,7 @@
 
                       <p>Téléphone :</p><br>
                       <div class="boxinput">
-                        <input type="text" name="telephone" value="telephone" />
+                        <input type="text" name="telephone" value="Téléphone" />
                       </div>
                   </div><br>
                   <div class="boxinfo2">
@@ -73,15 +71,19 @@
 
                       <p> Mail :</p><br>
                       <div class="boxinput">
-                        <input type="text" name="mail" value="mail" />
+                        <input type="text" name="mail" value="Mail" />
                       </div>
                   </div>
             </section><HR>
               <div class="cmdp4f">
-                <h1>VOS COMMANDES</h1>
-                <p>Bella Olonge restaurant</p>
+                  <div class="h1top">
+                    <h1>VOS COMMANDES</h1>
+                  </div>
+                  <p>Bella Olonge restaurant</p>
               </div>
-              <h2 class="h2bot">supplément</h2>
+              <div class="ptitle">
+                  <p>Suppléments</p>
+              </div>
             <section id="cmd">
                 <div class=boxcmd1>
                   <label for="ingredient">Ingrédient 1</label>
@@ -135,78 +137,78 @@
                 <li class="frites"><input type="checkbox" name="avec" value="ok" /> Sans Frites.</li>
               </div>
             <section id="boxbd">
-              <div class="boxbd1">
-                <div>
-                  <h2 class="h2bot">Boissons</h2>
+                <div class="boxbd1">
+                  <div>
+                    <h2 class="h2bot">Boissons</h2>
+                  </div>
+                  <div>
+                    <input type="checkbox" class="boxinputboissons" name="nom" value="0"checked="checked"/>
+                    <label for="ingredient ">Coca-cola</label>
+                    <select name="boissons" id="bs-select">
+                      <option value="">0</option>
+                      <option value="">1</option>
+                      <option value="">2</option>
+                      <option value="">3</option>
+                    </select><br>
+                  </div>
+                  <div>
+                    <input type="checkbox" class="boxinputboissons" name="nom" value="0"/>
+                    <label for="ingredient ">Fanta</label>
+                    <select name="boissons" id="bs-select">
+                      <option value="">0</option>
+                      <option value="">1</option>
+                      <option value="">2</option>
+                      <option value="">3</option>
+                    </select><br>
+                  </div>
+                  <div>
+                    <input type="checkbox" class="boxinputboissons" name="nom" value="0"/>
+                    <label for="ingredient ">Evian</label>
+                    <select name="boissons" id="bs-select">
+                      <option value="">0</option>
+                      <option value="">1</option>
+                      <option value="">2</option>
+                      <option value="">3</option>
+                    </select>
+                  </div>
                 </div>
-                <div>
-                  <input type="checkbox" class="boxinputboissons" name="nom" value="0"checked="checked"/>
-                  <label for="ingredient ">Coca-cola</label>
-                  <select name="boissons" id="bs-select">
-                    <option value="">0</option>
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                  </select><br>
-                </div>
-                <div>
-                  <input type="checkbox" class="boxinputboissons" name="nom" value="0"/>
-                  <label for="ingredient ">Fanta</label>
-                  <select name="boissons" id="bs-select">
-                    <option value="">0</option>
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                  </select><br>
-                </div>
-                <div>
-                  <input type="checkbox" class="boxinputboissons" name="nom" value="0"/>
-                  <label for="ingredient ">Evian</label>
-                  <select name="boissons" id="bs-select">
+                <div class="boxbd2">
+                  <div>
+                    <h2 class="h2bot">Dessert</h2>
+                  </div>
+                  <div>
+                    <input type="checkbox" class="boxinputboissons" name="nom" value="0"/>
+                    <label for="ingredient ">Tiramisu</label>
+                    <select name="boissons" id="bs-select">
+                      <option value="">0</option>
+                      <option value="">1</option>
+                      <option value="">2</option>
+                      <option value="">3</option>
+                    </select><br>
+                  </div>
+                  <div>
+                    <input type="checkbox" class="boxinputboissons" name="nom" value="0"/>
+                    <label for="ingredient ">Cheese-cake</label>
+                    <select name="boissons" id="bs-select">
+                      <option value="">0</option>
+                      <option value="">1</option>
+                      <option value="">2</option>
+                      <option value="">3</option>
+                    </select><br>
+                  </div>
+                  <div>
+                    <input type="checkbox" class="boxinputboissons" name="nom" value="0"/>
+                    <label for="ingredient ">Tarte à la fraise</label>
+                    <select name="boissons" id="bs-select">
                     <option value="">0</option>
                     <option value="">1</option>
                     <option value="">2</option>
                     <option value="">3</option>
                   </select>
-                </div>
-              </div>
-              <div class="boxbd2">
-                <div>
-                  <h2 class="h2bot">Dessert</h2>
-                </div>
-                <div>
-                  <input type="checkbox" class="boxinputboissons" name="nom" value="0"/>
-                  <label for="ingredient ">Tiramisu</label>
-                  <select name="boissons" id="bs-select">
-                    <option value="">0</option>
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                  </select><br>
-                </div>
-                <div>
-                  <input type="checkbox" class="boxinputboissons" name="nom" value="0"/>
-                  <label for="ingredient ">Cheese-cake</label>
-                  <select name="boissons" id="bs-select">
-                    <option value="">0</option>
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                  </select><br>
-                </div>
-                <div>
-                  <input type="checkbox" class="boxinputboissons" name="nom" value="0"/>
-                  <label for="ingredient ">Tarte à la fraise</label>
-                  <select name="boissons" id="bs-select">
-                  <option value="">0</option>
-                  <option value="">1</option>
-                  <option value="">2</option>
-                  <option value="">3</option>
-                </select>
-                </div>
-              </div>               
-            </section><hr>
-            <h2 class="h2bot" >Adresse de livraison</h2>
+                  </div>
+                </div>               
+              </section><hr>
+              <h2 class="h2bot" >Adresse de livraison</h2>
           <section id="cmd">
                 <div class=boxcmd1>
                   <p> Nom : </p><br />
@@ -236,11 +238,10 @@
               </div>
           </section>
     <footer>
-      <div>
-        <a href="/bella__olonge_responsive/contact/index - p3.html">Envoyer</a>
-      </div>
+        <div>
+          <a href="/bella__olonge_responsive/contact/index - p3.html">Envoyer</a>
+        </div>
     </footer>
-<!-- https://www.figma.com/file/g2gbr4iq1FpldLsgv5WBvA/Untitled?node-id=122%3A8 -->
 </body>
 </html>
 
