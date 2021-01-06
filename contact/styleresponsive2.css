@@ -1,0 +1,161 @@
+@media screen and (min-width: 992px) and (max-width:1240px) {
+    .dropdown {
+        display: none;
+    }
+    .imgtop img {
+        width: 102%;
+    }
+    .navbar ul li {
+        justify-content: space-around;
+        margin: 10px 45px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+    .dropdown {
+        display: none;
+    }
+
+    .imgtop img {
+        width: 102%;
+        height: 360px;
+    }
+    .navbar ul li {
+        justify-content: space-around;
+        margin: 10px 20px;
+    }
+    .foodapp {
+        color: antiquewhite;
+        position: absolute;
+        font-family: Poppins;
+        line-height: 24px;
+        text-align: center;
+        margin: 62px 94px;
+    }
+    .foodapp p {
+        font-size: 35px;
+        margin-top: 46px;
+    }
+    #info {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 26px;
+        grid-gap: 6%;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+    .navbar {
+        display:none;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown, .dropup {
+        font-size: xx-large;
+        margin-left: 30%;
+        font-family: hanalei fill;
+    }
+      
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .imgtop img {
+        width: 100%;
+        height: auto;
+    }
+    
+    #info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 26px;
+    }
+
+    .foodapp {
+        width: auto;
+        margin: 25px 0px 0px 155px;
+    }
+
+    .foodapp p {
+        margin: 30px auto;
+        font-size: 19px;
+        margin-top: auto;
+    }
+    footer div {
+        margin-left: 37%;
+        margin-top: 16%;
+    }
+
+}
+
+@media screen and (max-width: 499px) {
+    .navbar {
+        display:none;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown, .dropup {
+        font-size: xx-large;
+        margin-left: 30%;
+        font-family: hanalei fill;
+    }
+      
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .imgtop img {
+        width: 100%;
+        height: auto;
+    }
+    
+    #info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 26px;
+    }
+
+    .foodapp {
+        width: auto;
+        margin: 0px 0px 0px 80px;
+    }
+    .foodapp p {
+        margin: 30px auto;
+        font-size: 19px;
+        margin-top: auto;
+    }
+    footer div {
+        margin-left: 37%;
+        margin-top: 16%;
+    }
+
+
+}
