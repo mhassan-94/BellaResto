@@ -6,8 +6,66 @@
         justify-content: space-around;
         margin: 10px 45px;
     }
+    .boxinfo1 p {
+        font-size: xx-large;
+    }
+
+    .boxinfo2 p {
+        font-size: xx-large;
+    }
+
+    .boxinput input {
+        height: 80px;
+        width: 310px;
+    }
+
+    .boxcmd1 label {
+        font-size: xx-large;
+    }
+    .boxcmd2 p {
+        font-size: xx-large;
+    }
+    hr {
+        display:none;
+    }
+    .frites {
+        font-size: xxx-large;
+    }
+    .frites input {
+        width: 30%;
+        height: 40px;
+    }
+
+    .boxbd1 {
+        font-size: x-large;
+    }
+    .boxbd2 {
+        font-size: x-large;
+    }
+    
+    .boxbd1 div {
+        display: grid;
+        grid-template-columns: 8% 31% 49%;
+    }
+    .boxbd2 div {
+        display: grid;
+        grid-template-columns: 8% 31% 49%;
+    }
+
+    input.boxinputboissons {
+        height: 35px;
+    }
+
+    .h2bot {
+        font-family: hanalei fill;
+        font-size: xx-large;
+    }
+    .boxcmd1 p {
+        font-size: xx-large;
+    }
 
 }
+
 @media screen and (min-width: 768px) and (max-width:991px) {
     .imgtop img {
         width: 102%;
@@ -37,15 +95,26 @@
         margin: 26px;
         grid-gap: 6%;
     }
+    .boxinfo1 p {
+        font-size: x-large;
+    }
+    .boxinfo2 p {
+        font-size: x-large;
+    }
     #cmd {
         display: grid;
         grid-template-columns: 50% 50%;
         grid-gap: 6%;
-        height: 260px;
     }
     .boxcmd2 {
         display: grid;
         width: 80%;
+    }
+    .boxcmd2  p{
+        font-size: x-large;
+    }
+    .boxcmd2 input {
+        height: 45px;
     }
     .boxfrites{
         display: flex;
@@ -62,8 +131,8 @@
     .boxbd2 div {
         grid-gap: 35px;
     }
-    .label {
-        width: max-content;
+    .boxcmd1 label {
+        font-size: x-large;
     }
 
 }
@@ -217,6 +286,12 @@
         align-items: center;
         margin: 26px;
     }
+    .boxinfo1 p {
+        font-size: x-large;
+    }
+    .boxinfo2 p {
+        font-size: x-large;
+    }
 
     .boxinput input {
         height: 53px;
@@ -230,6 +305,13 @@
 
     .boxcmd1 input {
         height: 60px;
+    }
+    #ing-select {
+        height: 60px;
+    }
+
+    hr {
+        display: none;
     }
 
     .foodapp {
@@ -297,9 +379,6 @@
         margin-left: 10px;
     }
 
-    .dropdown, .dropup {
-        font-size: xx-large;
-    }
 
     .cmdp4f h1 {
         display: flex;
