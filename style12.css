@@ -1,0 +1,338 @@
+@media screen and (min-width: 1390px) {
+    .imgtop img {
+        width: 100%;
+    }
+        .navbar1{
+        display: flex;
+        align-items: center;
+        font-family: hanalei fill;
+        font-size: 50px;
+    }
+    .navbar {
+        display: none;
+    }
+    div.foodapp {
+        position: absolute;
+        color: blanchedalmond;
+        flex-direction: column;
+        font-size: 100px;
+        width: 100%;
+        padding-top: 60px;
+    }
+    .tmenu {
+        font-family: hanalei fill;
+        font-size: 140px;
+        text-align: center;
+        MARGIN: 50PX;
+        color: black;
+        text-decoration: underline;
+    }
+    .p4f{
+        font-size: xxx-large;
+        text-align: center;
+        font-family: hanalei fill;  
+        border: 12px inset goldenrod;
+        height: 570px;
+    }
+    .burger {
+        font-size: xxx-large;
+        text-align: center;
+        font-family: hanalei fill;  
+        border: 12px inset brown;
+        height: 650px;
+    }
+    .sld {
+        font-size: xxx-large;
+        text-align: center;
+        font-family: hanalei fill;  
+        border: 12px inset darkseagreen;
+        height: 560px;
+    }
+    .bonapp h1 {
+        position: absolute;
+        color: white;
+        font-size: 130px;
+        WIDTH: 100%;
+        PADDING-TOP: 144px;
+    }
+    ul.alltopbtn li a:hover {
+        color: gray;
+    }
+
+}
+@media screen and (min-width: 992px) and (max-width:1389px) {
+    .imgtop img {
+        width: 100%;
+    }
+    .navbar1 {
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: hanalei fill;
+        font-size: 50px;
+    }
+    .alltopbtn {
+        list-style-type: none;
+        display: flex;
+    }
+    .tmenu {
+        font-family: hanalei fill;
+        font-size: 140px;
+        text-align: center;
+        MARGIN: 50PX;
+        color: black;
+        text-decoration: underline;
+    }
+    div.foodapp {
+        position: absolute;
+        color: blanchedalmond;
+        flex-direction: column;
+        font-size: xxx-large;
+        width: 100%;
+        padding-top: 120px;
+    }
+    #Pizza {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 100px;
+    }
+    .p4f{
+        font-size: xxx-large;
+        text-align: center;
+        font-family: hanalei fill;  
+        border: 12px inset goldenrod;
+        height: 570px;
+    }
+    #Burgers {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 100px;
+    }
+    .burger {
+        font-size: xxx-large;
+        text-align: center;
+        font-family: hanalei fill;  
+        border: 12px inset brown;
+        height: 650px;
+    }
+
+    #Salades {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 100px;
+    }
+    .sld {
+        font-size: xxx-large;
+        text-align: center;
+        font-family: hanalei fill;  
+        border: 12px inset greenyellow;
+        height: 560px;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width:991px) {
+    .imgtop img {
+        width: 100%;
+    }
+    
+    .styled {
+        width: 100%;
+        border: 0;
+        line-height: 2.5;
+        padding: 0 20px;
+        font-size: 4rem;
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+        border-radius: 10px;
+        background-color: rgba(220, 0, 0, 1);
+        background-image: linear-gradient(to top left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 30%, rgba(0, 0, 0, 0));
+        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px 3px rgba(0, 0, 0, .6);
+    }
+    .alltopbtn {
+        list-style-type: none;
+        display: flex;
+        font-size: 10px;
+    }
+    .navbar{
+          font-size: 35px;
+          font-family: Hanalei Fill;
+          margin-left: 50px;
+    }
+    a.navbar-brand {
+        font-size: xx-large;
+        color:orangered;
+    }
+    .navbar1{
+        display: none
+    }
+    .dropdown {
+        align-items: center;
+    }
+
+    
+    div.foodapp {
+        position: absolute;
+        color: blanchedalmond;
+        flex-direction: column;
+        font-size: xxx-large;
+        width: 100%;
+        padding-top: 70px;
+    }
+
+    #Pizza {
+        display: flex;
+        flex-direction: column;
+        margin-right: 70px;
+  
+    }
+
+    .tmenu {
+        font-family: hanalei fill;
+        font-size: 80px;
+        text-align: center;
+        MARGIN: 50PX;
+        color: black;
+    }
+    .p4f{
+        font-size: xxx-large;
+        text-align: center;
+        font-family: hanalei fill;  
+        border: 12px inset goldenrod;   
+    }
+  
+    #Burgers {
+        display: flex;
+        flex-direction: column;
+  
+    }
+    .burger{ 
+        font-size: xxx-large;
+        text-align: center; 
+        font-family: hanalei fill;
+        border: 12px inset brown;
+    }
+    #Salades {
+        display: flex;
+        flex-direction: column;
+  
+    }
+    .sld{
+        font-size: xxx-large;
+        text-align: center;  
+        font-family: hanalei fill;
+        border: 12px inset darkseagreen;
+    }
+    .sld img {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .imgtop img {
+        width: 100%;
+    }
+    .dropdown {
+        display: none;
+    }
+    .alltopbtn {
+        list-style-type: none;
+        display: flex;
+    }
+    .navbar1{
+        display:none
+    }
+     
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 20px;
+        text-align: center;
+        color: black;
+        font-family: hanalei fill;
+    }
+    .navbar-brand {
+        float: left;
+        height: 50px;
+        padding: 15px 15px;
+        font-size: 43px;
+        line-height: 20px;
+        color: black;
+        font-family: hanalei fill;
+    }
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+        background-color: black;
+    }
+
+    div.foodapp {
+        position: absolute;
+        color: blanchedalmond;
+        flex-direction: column;
+        font-size: 25px;
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    #Pizza {
+        display: flex;
+        flex-direction: column;
+        margin-right: 70px;
+  
+    }
+
+    .tmenu {
+        font-family: hanalei fill;
+        font-size: 100px;
+        text-align: center;
+        MARGIN: 50PX;
+        color:black;
+    }
+    .p4f{
+        font-size: xxx-large;
+        text-align: center;
+        font-family: hanalei fill;  
+        border: 12px inset goldenrod;   
+    }
+  
+    #Burgers {
+        display: flex;
+        flex-direction: column;
+  
+    }
+    .burger{ 
+        font-size: xxx-large;
+        text-align: center; 
+        font-family: hanalei fill;
+        border: 12px inset brown;
+    }
+    #Salades {
+        display: flex;
+        flex-direction: column;
+  
+    }
+    .sld{
+        font-size: xxx-large;
+        text-align: center;  
+        font-family: hanalei fill;
+        border: 12px inset darkseagreen;
+    }
+    .sld img {
+        width: 80%;
+    }
+    .bonapp h1 {
+        position: absolute;
+        color: white;
+        font-size: 40px;
+        WIDTH: 100%;
+        PADDING-TOP: 45px;
+    }
+    .footerimg img {
+        display:none
+    }
+}

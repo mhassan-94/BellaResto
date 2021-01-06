@@ -1,0 +1,178 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.imgtop img {
+    width: 100%;
+}
+.navbar1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: hanalei fill;
+    font-size: 50px;
+}
+
+.alltopbtn {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul.alltopbtn li {
+    margin: 0px 40px;
+}
+li a {
+    text-decoration: none;
+}
+#illtop {
+    DISPLAY: GRID;
+    GRID-TEMPLATE-COLUMNS: 1FR 1FR 1FR;
+    GRID-TEMPLATE-ROWS: 90PX 90PX 90PX;
+    text-align: center;
+}
+
+div.imgtop{
+    GRID-ROW: 1/6;
+    GRID-COLUMN: 1/4;
+}
+
+div.foodapp {
+    position: absolute;
+    color: blanchedalmond;
+    flex-direction: column;
+    font-size: xxx-large;
+    width: 100%;
+    padding-top: 175px;
+}
+.tmenu {
+    text-align: center;
+    MARGIN: 50PX;
+    FONT-SIZE: xxx-large;
+}
+
+#Pizza {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.p4f {
+    border: 3px solid #FA4A0C;
+    border-radius: 10px;
+}
+
+div.p4f p {
+    FONT-SIZE: xxx-large;
+}
+
+div.p4f img {
+    width: 95%;
+    height: 54%;
+    MARGIN: 10PX 10PX 10PX 10PX;
+}
+
+#Burgers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.burger {
+    border: 3px solid #FA4A0C;
+    border-radius: 10px;
+    font-size: xx-large;
+}
+.burger img {
+    WIDTH: 95%;
+    HEIGHT: 60%;
+    MARGIN: 10PX 10PX 10PX 10PX;
+}
+
+#Salades {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.sld {
+    border: 3px solid #FA4A0C;
+    border-radius: 10px;
+    font-size: xx-large;
+}
+
+.sld img {
+    WIDTH: 95%;
+    HEIGHT: 50%;
+    MARGIN: 10PX 10PX 10PX 10PX;
+}
+
+.styled {
+    width: 100%;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.bonapp{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+}
+.bonapp img {
+    width: 100%;
+    grid-row: 1/4;
+    grid-column: 1/4;
+}
+.bonapp h1 {
+    position: absolute;
+    color: white;
+    font-size: 75px;
+    WIDTH: 100%;
+    PADDING-TOP: 100px;
+}
+hr{
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 3px;
+    background-color: black;
+}
+.psolv {
+    margin: 100px 100px 100px;
+    font-size: 36px;
+}
+
+.fouter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
