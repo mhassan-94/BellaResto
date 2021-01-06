@@ -37,6 +37,13 @@
         font-size: 35px;
         margin-top: 46px;
     }
+
+    h1 {
+        margin: 20px;
+        margin-left: 360px;
+        font-family: 'Montserrat';
+    }
+
     #info {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -78,6 +85,10 @@
         width: 100%;
         height: auto;
     }
+
+    h1 {
+        margin-left: 104px;
+    }
     
     #info {
         display: flex;
@@ -88,12 +99,12 @@
 
     .foodapp {
         width: auto;
-        margin: 25px 0px 0px 155px;
+        margin: 25px 0px 0px 129px;
     }
 
     .foodapp p {
         margin: 30px auto;
-        font-size: 19px;
+        font-size: 28px;
         margin-top: auto;
     }
     footer div {
